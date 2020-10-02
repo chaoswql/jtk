@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ufren.jtk</groupId>
+  <artifactId>jtk-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>jtk-core</module>
+    <module>jtk-dal</module>
+    <module>jtk-esbx</module>
+    <module>jtk-esbx-client</module>
+    <module>jtk-esbx-gateway</module>
+    <module>jtk-esbx-iot-server</module>
+    <module>jtk-mvc</module>
+    <module>jtk-security</module>
+    <module>jtk-spring</module>
+  </modules>
+</project>
